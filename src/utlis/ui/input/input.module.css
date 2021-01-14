@@ -1,0 +1,54 @@
+
+.Label{
+    margin-bottom: .4rem;
+    color: rgb(112, 108, 100);
+    /* color: black; */
+    cursor: text;
+  }
+  .InputElement{
+    display: block;
+    height: 4rem;
+    margin-bottom: 1rem;
+   
+  }
+
+  .InputElement input,.InputElement textarea{
+
+    display: block;
+    color: rgb(36, 30, 18);
+    height: 4rem;
+    /* background: rgb(245, 244, 242); */
+    background: white;
+    border: 1px solid rgb(229,227,221);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    width: 100%;
+
+}
+
+.InValidInputElement input, .InValidInputElement textarea { 
+
+  background-color: rgb(250, 233, 234);
+  border-color: rgb(214, 41, 41);
+
+}
+
+  .InputElement input:focus, .InputElement textarea:focus{
+    background-color: white;
+    border-color: rgb(31, 28, 28);
+  }
+  .InValidInputElement input:focus, .InValidInputElement textarea:focus{ 
+    background-color: white;
+    border-color: rgb(214, 41, 41);
+  }
+  
+  .ErrorMessage{
+    
+    color: rgb(214, 41, 41);
+    margin-bottom: .6rem;
+
+  }
+   .ErrorMessage p{
+    font-size: 1.4rem;
+  } 
+  

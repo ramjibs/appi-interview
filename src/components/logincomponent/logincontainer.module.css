@@ -1,0 +1,18 @@
+.LoginContainer {
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    overflow: auto;
+    min-height: 100vh;
+}
+
+.Title{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding: .5rem;
+    margin: .5rem;
+}
+

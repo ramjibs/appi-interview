@@ -1,0 +1,66 @@
+.ButtonContainer{
+    display: block;
+    height: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .ButtonContainerWithErrorMessage{
+
+    height: 7.5rem;
+  }
+
+  .ErrorMessage{
+    
+    color: rgb(214, 41, 41);
+    text-align: center;
+    font-weight: 600;
+    padding: .5rem;
+    margin-bottom: .4rem;
+  }
+
+  .ButtonElement{
+      
+    color:rgb(253, 253, 253);
+    background-color:rgb(63, 199, 188);
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100%;
+    height: 4rem;
+    border: 1px solid rgb(41, 133, 175);
+    outline: none;
+
+    
+}
+  
+
+  
+  
+  .ButtonElementReverse{
+      color: rgb(41, 133, 175);
+      background-color: #fff;
+     
+  }
+
+  .ButtonElementCancel{
+    color: #fff;
+    background-color: #e41c1cc4;
+  }
+ 
+.ButtonElement:hover{
+  cursor: pointer;
+}
+
+.ButtonElement:disabled{
+    cursor: text;
+    color:rgb(168, 159, 159);
+    /* border-color:  rgba(160, 152, 152, 0.767); */
+    background-color:rgb(41, 133, 175);
+
+}
+  
+  
+  
+
+  
+  
